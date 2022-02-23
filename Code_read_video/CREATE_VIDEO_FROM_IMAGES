@@ -1,0 +1,14 @@
+image_names = {'17.jpg', 'J83_9.tif', 'talk_normal.png', '18.jpg', 'eleventy seven puma divison (for real!).png' };
+
+movie_obj = VideoWriter('TestMovie.avi');
+
+for K = 1 : length(image_names)
+
+this_image = imread(image_names{K});
+
+writeVideo(movie_obj, this_image);
+
+end
+
+close(movie_obj);
+

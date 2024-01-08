@@ -1,1 +1,1 @@
-# Simple OpenCv ping-pong ball detection in MATLAB
+# Simple OpenCV ping-pong ball detection in MATLAB
